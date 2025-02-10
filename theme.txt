@@ -1,0 +1,9 @@
+# Global
+
+title-text: ""
+desktop-image: "outer_wilds.png"
+
+terminal-font: ""
+terminal-border: "2px"
+
+
