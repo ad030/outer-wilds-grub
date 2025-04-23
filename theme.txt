@@ -3,7 +3,38 @@
 title-text: ""
 desktop-image: "outer_wilds.png"
 
-terminal-font: ""
 terminal-border: "2px"
 
 
+# Boot menu
++ boot_menu {
+        left = 5%
+        top = 40%
+        width = 50%
+        height = 400
+
+        item_font = "ITC Serif Gothic Extra Bold 32"
+        selected_item_font = "ITC Serif Gothic Extra Bold 32"
+
+        item_color = #ea8042
+        selected_item_color = #fde1d5
+
+        item_height = 40px
+        item_spacing = 50px
+        item_padding = 0px
+
+        item_pixmap_syle = ""
+        selected_item_pixmap_style = "selected_item_*.png"
+
+        scrollbar = false;
+}
+
+# Logo
++ image {
+        left = 5%
+        top = 10%
+        width = 500 
+        height = 250
+        file = "outer_wilds_logo.png"
+
+}
